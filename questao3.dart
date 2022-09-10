@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   int idade;
   
-  print('--NATAÇÃO--');
+  print('------------');
 	print('Digite a idade do nadador: ');
   idade = int.parse(stdin.readLineSync()!);
 
@@ -20,6 +20,6 @@ void main() {
   }else if(idade > 18){
     print('Categoria Adulto');
   }else{
-    print('Ainda não faz parte de nenhuma das categorias');
+    print('Ainda não faz parte de nenhuma das categorias.');
   }
 }
