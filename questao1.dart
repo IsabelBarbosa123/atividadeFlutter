@@ -5,7 +5,7 @@ void main() {
   int n2;
   int n3;
 	
-  //Atribuindo valor as variáveis:
+  //Atribuindo valor as variáveis a partir da leitura do imput do usuário:
 	
 	print('--- IMPRIME O MAIOR NÚMERO ---');
   print('Impute o primeiro número inteiro: ');
